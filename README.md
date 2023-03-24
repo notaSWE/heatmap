@@ -1,5 +1,5 @@
 # heatmap
-Really just an excuse to learn Golang for no reason
+Stock market price activity heatmap. But really just an excuse to learn Golang for no reason
 
 ![Sample Heatmap](images/myport.JPG)
 
