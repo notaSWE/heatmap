@@ -2,13 +2,13 @@
 Stock market price activity heatmap. But really just an excuse to learn Golang for no reason
 
 ## Mixed Day
-![Mixed Day](images/myport.JPG)
+![Mixed Day](images/myport_lg.JPG)
 
 ## Good Day
-![Good Day](images/myportgreen.JPG)
+![Good Day](images/myportgreen_lg.JPG)
 
 ## Bad Day
-![Bad Day](images/myportred.JPG)
+![Bad Day](images/myportred_lg.JPG)
 
 ### Prerequisites
 1. Go
