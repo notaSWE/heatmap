@@ -22,8 +22,9 @@ body {
 
 .rectangle .ticker {
     color: white;
-    font-size: 2vw;
-    text-shadow: 1px 1px 2px black;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-shadow: 3px 2px 1px rgb(38, 41, 49);
     margin-bottom: 0.1em; /* Add some space between the ticker and daychange */
 }
 
