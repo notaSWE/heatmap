@@ -15,6 +15,6 @@ Stock market price activity heatmap. But really just an excuse to learn Golang f
 
 ### Notes
 I did very little testing on this but I imagine it works best with 15-30 stock tickers.  You can modify `myport.csv` to reflect stock tickers followed by the number of shares you own like this:
-* msft,7
-* NVDA,13
+* msft,7  
+* NVDA,13  
 Due to Polygon.io API limitations, the script will sleep 12 seconds in between API calls if you have more than 5 items in `myport.csv`
