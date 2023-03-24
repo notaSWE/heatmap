@@ -27,4 +27,4 @@ I did very little testing on this but I imagine it works best with 15-30 stock t
 
 Due to Polygon.io API limitations, the script will sleep 12 seconds in between API calls if you have more than 5 items in `myport.csv`  
 
-And lastly, the stocks mentioned anywhere in this project were randomly chosen and some of the data falsified for demonstrative purposes.
+And lastly, the stocks mentioned in this project were randomly chosen and some of the data falsified for demonstrative purposes.
