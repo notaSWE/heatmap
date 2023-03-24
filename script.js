@@ -1,5 +1,7 @@
 async function createHeatmap() {
-  const rawData = await d3.csv("data.csv");
+  const rawData = await d3.csv("green.csv");
+  // const rawData = await d3.csv("red.csv");
+  // const rawData = await d3.csv("mixed.csv");
 
   const items = rawData
   .filter(row => parseFloat(row.portweight) >= 0.02) // Filter out tickers with portweight under 2%
