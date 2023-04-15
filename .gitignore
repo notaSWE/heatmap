@@ -15,5 +15,7 @@
 # vendor/
 
 helper.py
+_data.csv
 mydata.csv
+_mydata.csv
 .env

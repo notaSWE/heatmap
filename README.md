@@ -17,10 +17,13 @@ Stock market price activity heatmap. But really just an excuse to learn Golang f
 
 ### Usage
 1. go run `getportfolio.go`
-2. python3 -m http.server
-3. Navigate to `http://127.0.0.1:8000/` in a browser window
+2. go run `server.go`
+* Defaults to loading `data.csv`
+* Optional command line arguments include `green` and `red`, ie, `go run server.go red` to simulate a red day
+3. Navigate to `http://localhost:8000/` in a browser window
 
 ### Notes
+`getportfolio.go` leverages the free version of the Polygon.io API and thus data is limited to previous day.  The color of each square in the Heatmap depends on the previous day difference between the close price and the open price.  The rectangle will approach bright red the more negative it closed; conversely, the rectangle will approach bright green the more positive it closed.  
 I did very little testing on this but I imagine it works best with 15-30 stock tickers.  You can modify `myport.csv` to reflect stock tickers followed by the number of shares you own like this:
 * msft,7  
 * NVDA,13  
